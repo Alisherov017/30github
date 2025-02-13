@@ -1,3 +1,5 @@
+// !SSG (Static Site Generation) – полностью статический рендеринг во время сборки.
+
 export async function generateStaticParams() {
   return []; // Next.js поймёт, что страницу можно генерировать статически
 }
